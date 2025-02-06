@@ -18,14 +18,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-
-        Button bt= findViewById(R.id.btn);
-        TextView txt = findViewById(R.id.txt);
-
-        bt.setOnClickListener(new View.OnClickListener() {
+        TextView txt= findViewById(R.id.txtview);
+        Button btn= findViewById(R.id.btnc);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                txt.setText("Android");
+                txt.setText("Hello Android");
             }
         });
 
