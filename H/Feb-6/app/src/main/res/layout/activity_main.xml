@@ -33,5 +33,11 @@
             android:layout_height="wrap_content"
             android:text="White"
             android:textSize="24sp" />
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textSize="24sp" />
     </RadioGroup>
 </RelativeLayout>
