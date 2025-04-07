@@ -1,4 +1,4 @@
-package com.example.checkbox;
+package com.example.myintent;
 
 import org.junit.Test;
 
@@ -15,9 +15,3 @@ public class ExampleUnitTest {
         assertEquals(4, 2 + 2);
     }
 }
-// public class ExampleUnitTest {
-//     @Test
-//     public void addition_isCorrect() {
-//         assertEquals(4, 2 + 2);
-//     }
-// }
